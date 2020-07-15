@@ -1,0 +1,274 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CARSSUM</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" type="text/css" href="css/front.css">
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/mobiscroll.javascript.min.js"></script>
+<script type="text/javascript" src="js/front.js"></script>
+
+<!-- 소스코드 보기 -->
+	<script type="text/javascript" src="scripts/shCore.js"></script>
+	<script type="text/javascript" src="scripts/shLegacy.js"></script>
+	<script type="text/javascript" src="scripts/shAutoloader.js"></script>
+	<script type="text/javascript" src="scripts/shBrushPhp.js"></script>
+	<script type="text/javascript" src="scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="scripts/shBrushJScript.js"></script>
+	<link type="text/css" rel="stylesheet" href="styles/shCoreDefault.css"/>
+	<link type="text/css" rel="stylesheet" href="styles/shThemeMidnight.css"/>
+	<script type="text/javascript">SyntaxHighlighter.all();</script>
+<!-- // 소스코드 보기 -->
+
+</head>
+<body>
+		
+
+		<style>
+			body { background: #f2f2f2; }
+			.guide { padding:30px; border: 1px solid #ddd; margin:30px; background: #fff; border-radius:10px; }
+			.code { font-size:1.4rem; padding:15px; border-radius:10px; overflow: hidden; background: #0f192a ; margin:15px 0; }
+		</style>
+		<div class="sub-container1060">
+			<div class="guide">		
+				<h2 class="h2"><span><em>Button</em></span></h2>
+				<h3 class="h3"><span><em>일반버튼</em></span></h3>
+				
+				<button class="btn-type1">버튼1</button>
+				<button class="btn-type2">버튼2</button>
+				<button class="btn-type3">버튼3</button>
+				<br>
+				<button class="btn-type1 btn-m">버튼1</button>
+				<button class="btn-type2 btn-m">버튼2</button>
+				<button class="btn-type3 btn-m">버튼3</button>
+				<br>
+				<button class="btn-type1 btn-l">버튼1</button>
+				<button class="btn-type2 btn-l">버튼2</button>
+				<button class="btn-type3 btn-l">버튼3</button>
+				<br>
+				<button class="btn-type1" disabled>버튼1(diabled)</button>
+				<button class="btn-type2" disabled>버튼2(diabled)</button>
+				<button class="btn-type3" disabled>버튼3(diabled)</button>
+				
+				
+				<div class="code">
+					<pre class="brush: php">
+					
+					</pre>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+			<div class="guide">
+				<h2 class="h2"><span><em>Form</em></span></h2>
+				<div>
+					<div class="mb20">
+					<input type="text" class="inp" placeholder="Input">
+					<input type="text" class="inp" disabled value="disabled"><br>
+					<input type="text" class="inp line-type" value="Input Line Type">
+					<input type="text" class="inp line-type" disabled value="Input Line Type Disabled">
+					</div>
+					<div class="mb20">
+					<input type="text" class="inp block" placeholder="Width 100%">
+					</div>
+					<div class="mb20">
+					<select class="select" style="width:200px">
+						<option>Select</option>
+						<option>Select</option>
+						<option>Select</option>
+					</select>
+					<select class="select" style="width:200px" disabled>
+						<option>Select Disabled</option>
+						<option>Select</option>
+						<option>Select</option>
+					</select>
+					</div>
+					<div class="mb20">
+						<textarea class="textarea" style="width:100%;height: 100px;">Textarea</textarea>
+					</div>
+
+					<div class="mb20">
+						<label><input type="checkbox" class="checkbox"><em></em><span>Checkbox</span></label>
+						<label><input type="checkbox" class="checkbox" disabled><em></em><span>Checkbox Disabled</span></label>
+						<label><input type="checkbox" class="checkbox" checked><em></em><span>Checkbox Checked</span></label>
+					</div>
+					<div class="mb20">
+						<label><input type="radio" class="radio" name="ra0"><em></em><span>Radio</span></label>
+						<label><input type="radio" class="radio" name="ra0" checked><em></em><span>Radio Checked</span></label>
+					</div>
+					<div class="mb20">
+						<label><input type="checkbox" class="switch"><em></em><span>Switch</span></label>
+					</div>
+				</div>
+				<div class="code">
+					<pre class="brush: php">
+						<input type="text" class="inp" placeholder="HintText">
+						
+						<input type="text" class="inp" disabled value="disabled">
+						
+						<select class="select" style="width:200px">
+							<option>Select</option>
+							<option>Select</option>
+							<option>Select</option>
+						</select>
+						
+						<select class="select" style="width:200px" disabled>
+							<option>Select</option>
+							<option>Select</option>
+							<option>Select</option>
+						</select>
+						
+						<label><input type="radio" class="text-radio" name="ra1" checked><span>Select</span></label>
+						<label><input type="radio" class="text-radio" name="ra1"><span>UnSelect</span></label>
+						
+						<label><input type="checkbox" class="checkbox"><em></em><span>Checkbox</span></label>
+						<label><input type="checkbox" class="checkbox" checked><em></em><span>Checkbox</span></label>
+						
+						<label><input type="radio" class="radio" name="ra2"><em></em><span>Radio</span></label>
+						<label><input type="radio" class="radio" name="ra2" checked><em></em><span>Radio</span></label>
+						
+						<label><input type="checkbox" class="switch"><em></em><span>Switch</span></label>
+					</pre>
+				</div>
+				
+				
+				
+			</div>
+			
+			<div class="guide">
+				<h2 class="h2"><span><em>Text</em></span></h2>
+				<div>
+					<h2 class="h2"><strong><span>대제목</span></strong></h2>
+					<h3 class="h3"><strong><span>소제목</span></strong></h3>
+					
+					<p class="tit1">타이틀 (1.2rem / bold)</p>
+					<p class="tit2">타이틀 (blue 1.4rem)</p>
+					<p class="tit3">타이틀 (2rem)</p>
+					<p class="tit4">타이틀 (1.6rem / bold)</p>
+					
+					<p class="txt1">텍스트 (1.2rem / blue) </p>
+					<p class="txt2">텍스트 (1.4rem / blue) </p>
+					
+					<p class="msg red">error</p>
+					<p class="msg green">correct!</p>
+					<p class="black">BLACK</p>
+					<p class="blue1">BLUE1</p>
+					<p class="blue">BLUE</p>
+					<p class="txt-blue">TXT-BLUE</p>
+					<p class="gray">gray</p>
+					<p class="gray3">gray3</p>
+				</div>
+				<div class="code">
+					<pre class="brush: php">
+						<h2 class="h2"><strong><span>대제목</span></strong></h2>
+						<h3 class="h3"><strong><span>소제목</span></strong></h3>
+
+						<p class="tit1">타이틀 (1.2rem / bold)</p>
+						<p class="tit2">타이틀 (blue 1.4rem)</p>
+						<p class="tit3">타이틀 (2rem)</p>
+						<p class="tit4">타이틀 (1.6rem / bold)</p>
+
+						<p class="txt1">텍스트 (1.2rem / blue) </p>
+						<p class="txt2">텍스트 (1.4rem / blue) </p>
+
+						<p class="msg red">error</p>
+						<p class="msg green">correct!</p>
+						<p class="black">BLACK</p>
+						<p class="blue1">BLUE1</p>
+						<p class="blue">BLUE</p>
+						<p class="txt-blue">TXT-BLUE</p>
+						<p class="gray">gray</p>
+						<p class="gray3">gray3</p>
+					</pre>
+				</div>
+			</div>
+			
+			
+			<div class="guide">
+				<h2 class="h2"><span><em>Dom</em></span></h2>
+				<div class="mb20">
+					<div class="tabs">
+						<a href="#" class="active">탭메뉴</a>
+						<a href="#">탭메뉴</a>
+						<a href="#">탭메뉴</a>
+					</div>
+				</div>
+				<div class="mb20">
+					<span class="label-txt type1">예약완료</span>
+					<span class="label-txt type2">반납완료</span>
+					<span class="label-txt type3">대여중</span>
+					<span class="label-txt type4">취소완료</span>
+					<span class="label-txt type5">취소요청</span>
+				</div>
+				<div class="mb20">
+					<div class="table1">
+						<table>
+							<thead>
+								<tr>
+									<th>TH</th>
+									<th>TH</th>
+									<th>TH</th>
+									<th>TH</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>TD</td>
+									<td>TD</td>
+									<td>TD</td>
+									<td>TD</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="code">
+					<pre class="brush: php">
+						<div class="tabs">
+							<a href="#" class="active">탭메뉴</a>
+							<a href="#">탭메뉴</a>
+							<a href="#">탭메뉴</a>
+						</div>
+						
+						<span class="label-txt type1">예약완료</span>
+						<span class="label-txt type2">반납완료</span>
+						<span class="label-txt type3">대여중</span>
+						<span class="label-txt type4">취소완료</span>
+						<span class="label-txt type5">취소요청</span>
+						
+						<div class="table1">
+							<table>
+								<thead>
+									<tr>
+										<th>TH</th>
+										<th>TH</th>
+										<th>TH</th>
+										<th>TH</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>TD</td>
+										<td>TD</td>
+										<td>TD</td>
+										<td>TD</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</pre>
+				</div>
+			</div>
+		</div>
+
+
+	
+
+</body>
+</html>
+
